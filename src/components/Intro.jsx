@@ -29,8 +29,7 @@ const Intro = () => {
             <Image 
               src={introText.img}
               alt="어바웃"
-              width={300}
-              height={300}
+              style={{ width: "100%", height: "auto" }}
             />
           </div>
         </div>
